@@ -455,7 +455,7 @@ extern HV* RSPL_defstash() {
 }
 
 extern void RSPL_set_use_safe_putenv(int on) {
-    PL_use_safe_putenv = on ? TRUE : FALSE;
+    // Do nothing
 }
 
 /*
